@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Putri Ayu Andini - Form Masuk</title>
+</head>
+<body>
+    <form action="">
+        <div id="logo" style="justify-items: center;">
+            <img src="Logo.png" style="max-width: 10%;" alt=""><b style="font-size: 24px;">  TRAVELEEN</b>
+
+        <!-- Headings for the form -->
+        <div class="headingsContainer">
+            <h1>Masuk</h1>
+            <p>PUTRI AYU ANDINI</p>
+        </div>
+
+        <!-- Main container for all inputs -->
+        <div class="mainContainer">
+            <!-- Username -->
+            <label for="username">Username atau Email</label>
+            <input type="text" placeholder="arthurmorgan@gmail.com" name="username" required>
+
+            <br><br>
+
+            <!-- Password -->
+            <label for="pswrd">Kata Sandi</label>
+            <input type="password" placeholder="********" name="pswrd" required>
+
+            <!-- sub container for the checkbox and forgot password link -->
+            <div class="subcontainer">
+                <label>
+                  <input type="checkbox" checked="checked" name="remember"> Ingat Saya
+                </label>
+                <p class="forgotpsd"> <a href="#">Lupa Kata Sandi</a></p>
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit">Masuk</button>
+
+            <!-- Sign up link -->
+            <p class="register">Tidak Punya Akun?  <a href="signup.html">Daftar</a></p>
+
+        </div>
+    </form>
+</body>
+</html>

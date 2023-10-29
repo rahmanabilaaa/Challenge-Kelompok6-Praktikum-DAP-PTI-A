@@ -1,0 +1,86 @@
+body {
+    font-family: "Poppiens", sans-serif;
+    background-image: url('bgPantai.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    max-width: 400px;
+    margin: 10% auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.headingsContainer {
+    margin-bottom: 20px;
+}
+
+.headingsContainer h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.headingsContainer p {
+    color: grey;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #059669;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #037a4d;
+}
+
+.subcontainer {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.register {
+    font-size: 16px;
+}
+
+.register a {
+    text-decoration: none;
+    color: #059669;
+}
